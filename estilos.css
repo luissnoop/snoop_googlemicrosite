@@ -30,7 +30,7 @@ a img{
 	border:0px;
 }
 .contenedor{
-	width:1280px; margin:0px auto; background:#fff; padding-top:48px;
+	width:1280px; margin:0px auto; background:#fff; /*padding-top:48px;*/
 }
 header{
 	overflow:hidden;
