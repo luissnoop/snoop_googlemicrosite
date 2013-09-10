@@ -179,7 +179,7 @@ section .contenido_landing .columna_derecha_ventajas #acordeon{
 section .contenido_landing .acordeon_horizontal{
 	width:1280px;
 	height:828px;
-	background:transparent url(images/footer-nuestra-oferta.gif) 0px 676px no-repeat;
+	background:transparent url(images/footer-nuestra-oferta.gif) 0px 726px no-repeat;
 	display:block;
 	padding-bottom:4px;
 }
