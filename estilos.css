@@ -1,0 +1,293 @@
+/* CSS Document */
+@font-face {
+    font-family: 'daxregular';
+    src: url('fuentes/dax-regu-webfont.eot');
+    src: url('fuentes/dax-regu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/dax-regu-webfont.woff') format('woff'),
+         url('fuentes/dax-regu-webfont.ttf') format('truetype'),
+         url('fuentes/dax-regu-webfont.svg#daxregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RotisSemiSansStd';
+    src: url('fuentes/RotisSemiSansStd.eot');
+    src: url('fuentes/RotisSemiSansStd.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/RotisSemiSansStd.woff') format('woff'),
+         url('fuentes/RotisSemiSansStd.ttf') format('truetype'),
+         url('fuentes/RotisSemiSansStd.svg#RotisSemiSansStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display: block;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+a img{
+	border:0px;
+}
+.contenedor{
+	width:1280px; margin:0px auto; background:#fff; padding-top:48px;
+}
+header{
+	overflow:hidden;
+	height:100%;
+	background:transparent url(images/fondo-botonera.gif) left bottom repeat-x;
+}
+header a h1{
+	display:block;
+	width:307px;
+	height:101px;
+	background:transparent url(images/logo-snoop-google.png) left top no-repeat;
+	margin:50px 0px 0px 60px;
+	float:left;
+}
+header nav{
+	float:right;
+	margin-right:40px;
+}
+header nav ul{
+	overflow:hidden;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+header nav ul li{
+	float:left;
+	border-right:1px solid #fff;
+}
+header nav ul li a{
+	width:170px;
+	height:140px;
+	text-align:center;
+	color: #fff;
+	text-decoration:none;
+	background:transparent url(images/fondo-botones.gif) left 180px repeat-x;
+	display:block;
+	font:30px/38px "daxregular";
+	padding:60px 20px 0px 20px;
+}
+header nav ul li .color1{
+	background-color:#236fc5;
+}
+header nav ul li .color2{
+	background-color:#d80012;
+}
+header nav ul li .color3{
+	background-color:#fdbe22;
+}
+header nav ul li .color4{
+	background-color:#2eaa2f;
+}
+header nav ul li a:hover {
+	color: #ccc;
+	background-color: #e9e9e9;
+}
+header nav ul li a.seleccionado {
+	color: #ccc;
+	background-color: #e9e9e9;
+}
+section .header_landing{
+	width:1280px;
+	height:652px;
+}
+section .header_nuevo_alto{
+	height:642px;
+}
+section .contenido_landing{
+	overflow:hidden; height:100%;
+}
+section .contenido_landing .titulo{
+	font:61px/65px 'RotisSemiSansStd';
+	color:#D80012;
+	letter-spacing:4px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+}
+section .contenido_landing .subtitulo{
+	font:29px/39px 'RotisSemiSansStd';
+	color:#999;
+	font-style:italic;
+	margin:0px;
+	padding:0px;
+}
+section .contenido_landing .columna_izquierda{
+	float:left; 
+	width:597px; 
+	height:424px; 
+	background:transparent url(images/fondo-home-youtube.gif) left top repeat-x;
+}
+section .contenido_landing .sombra_video{
+	width:470px; 
+	height:350px; 
+	margin:40px auto; 
+	box-shadow:0px 0px 10px #ccc;
+}
+section .contenido_landing .columna_derecha{
+	float:left; 
+	margin-top:40px; 
+	margin-left:90px;
+}
+section .contenido_landing .columna_izquierda_servicios{
+	float:left;
+	width:580px;
+	padding:0px 55px 0px 75px;
+}
+section .contenido_landing .columna_izquierda_servicios .texto{
+	font:19px/25px 'RotisSemiSansStd';
+	color:#646464;
+	margin:50px 0px 0px 0px;
+	padding:0px;
+}
+section .contenido_landing .columna_derecha_servicios{
+	float:right;
+	width:570px;
+	height:712px;
+	background:transparent url(images/fondo-servicios-landing.gif) left top repeat-x;
+}
+
+section .contenido_landing .columna_izquierda_ventajas{
+	float:left;
+	width:586px;
+	padding:0px 35px 0px 75px;
+	height:520px;
+}
+section .contenido_landing .columna_izquierda_ventajas ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+section .contenido_landing .columna_izquierda_ventajas ul li{
+	font:italic 19px/27px 'RotisSemiSansStd';
+	color:#646464;
+	padding:0px 0px 0px 30px;
+	margin-top:20px;
+	background:transparent url(images/icono-lista-ventajas.gif) 6px 10px no-repeat;
+}
+section .contenido_landing .columna_derecha_ventajas{
+	float:right;
+	width:584px;
+	background-color:#efefef;
+}
+section .contenido_landing .columna_derecha_ventajas #acordeon{
+	width:340px;
+}
+section .contenido_landing .acordeon_horizontal{
+	width:1280px;
+	height:828px;
+	background:transparent url(images/footer-nuestra-oferta.gif) 0px 676px no-repeat;
+	display:block;
+	padding-bottom:4px;
+}
+section #botones_landing{
+	overflow:hidden;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+section #botones_landing li{
+	overflow:hidden;
+	height:100%;
+	margin-bottom:20px;
+}
+section #botones_landing li a{
+	font:bold 13px/19px Arial, Helvetica, sans-serif; 
+	color:#000; 
+	text-decoration:none; 
+	display:block;
+}
+section #botones_landing li a .icono{
+	background:transparent url(images/sprite-botones-landing.png) 0px 0px no-repeat; 
+	width:75px; 
+	height:75px; 
+	display:block; 
+	float:left;
+}
+section #botones_landing li.boton1 a:hover .icono{
+	background-position:-75px 0px;
+}
+section #botones_landing li.boton1 a .texto{
+	padding:18px 0px 19px 20px;
+	display:block;
+	float:left;
+}
+section #botones_landing li.boton2 a{
+	line-height:15px;
+}
+section #botones_landing li.boton2 a .icono{
+	background-position:0px -75px;
+}
+section #botones_landing li.boton2 a:hover .icono{
+	background-position:-75px -75px;
+}
+section #botones_landing li.boton2 a .texto{
+	padding:15px 0px 15px 20px;
+	display:block;
+	float:left;
+}
+section #botones_landing li.boton2 a .texto i{
+	font-size:11px;
+	font-style:normal;
+	color:#666;
+}
+section #botones_landing li.boton3 a .icono{
+	background-position:0px -150px;
+}
+section #botones_landing li.boton3 a:hover .icono{
+	background-position:-75px -150px;
+}
+section #botones_landing li.boton3 a .texto{
+	padding:28px 0px 28px 20px;
+	display:block;
+	float:left;
+}
+.logo_google_cont{
+	position:relative;
+	width:100%;
+	height:0px;
+}
+.logo_google_cont .logo_google{
+	position:absolute;
+	top:-120px;
+	right:64px;
+}
+.logo_google_cont .logo_descargar{
+	position:absolute;
+	left:0px;
+	bottom:0px;/*top:-196px;*/
+	width:134px;
+	height:148px;
+	background:#f4f4f4;
+	padding:24px 68px
+}
+footer{
+	width:100%;
+	background:transparent url(images/fondo-footer.gif) left top repeat-x;
+	height:99px;
+	border-top:2px solid #000;
+}
+footer nav ul{
+	overflow:hidden;
+	list-style-type:none;
+	margin:0px auto;
+	padding:46px 0px 0px 0px;
+	width:400px;
+}
+footer nav ul li{
+	float:left;
+	border-right:1px solid #9a9a9a;
+}
+footer nav ul li:last-child{
+	border-right:none;
+}
+footer nav ul li a{
+	color:#9a9a9a;
+	padding:6px 10px;
+	text-decoration:none;
+	font:12px/16px Arial, Helvetica, sans-serif;
+	text-align:center;
+}

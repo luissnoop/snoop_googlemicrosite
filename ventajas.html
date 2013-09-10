@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Snoop Google</title>
+<link href="estilos.css" rel="stylesheet" type="text/css" />
+<link href="jquery-ui.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+$(function() {	
+	$("#acordeon").accordion({active: false,collapsible: true, heightStyle: "content"});
+	$(".ui-accordion-header:odd").addClass("odd");
+});
+</script>
+</head>
+<body>
+	<div class="contenedor">
+	<header>
+		<a href="index.html">
+			<h1></h1>
+		</a>
+		<nav>
+			<ul>
+				<li><a class="color1" href="servicios.html">Servicios</a></li>
+				<li><a class="color2 seleccionado" href="ventajas.html">Ventajas</a></li>
+				<li><a class="color3" href="nuestra_oferta.html">Nuestra Oferta</a></li>
+				<li><a class="color4" href="http://www.snoopconsulting.com/snoop_es/Contacto/Snoop-Consulting.html" target="_blank">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<div class="header_landing header_nuevo_alto">
+			<img src="images/banner-ventajas.jpg" width="1280" height="642" />
+		</div>
+		<div class="contenido_landing">
+			<div class="columna_izquierda_ventajas">
+				<h1 class="titulo">VENTAJAS</h1>
+				<ul>
+					<li>Ahorro de tiempo y dinero (hasta un 50% seg&uacute;n estudios de mercado)</li>
+					<li>Almacenamiento gratuito: 5gb. Espacio de almacenamiento 50<br />veces superior al promedio del sector</li>
+					<li>Usando estas aplicaciones basadas en Internet NO tendr&aacute; que<br />instalar ni mantener ning&uacute;n hardware o software.</li>
+				</ul>
+			</div>
+			<div class="columna_derecha_ventajas">
+				<div id="acordeon">
+					<h3>MENOR COSTO</h3>
+					<div>Como la luz o el tel&eacute;fono, usted pagar&aacute; por lo que usa. Su empresa dispondr&aacute; de m&aacute;s tiempo y ahorrar&aacute; costos.</div>
+					<h3>MAYOR CALIDAD</h3>
+					<div>Google Apps ofrece m&aacute;s seguridad, fiabilidad y espacio de almacenamiento del que la mayor&iacute;a de las organizaciones pueden conseguir con una soluci&oacute;n en las propias instalaciones.</div>
+					<h3>L&Iacute;DER EN INNOVACI&Oacute;N</h3>
+					<div>Google sigue demostrando su liderazgo en el sector en lo referente a innovaci&oacute;n basada en Web.</div>
+					<h3>SIN PROBLEMAS EN LA MIGRACI&Oacute;N</h3>
+					<div>Es posible migrar la cantidad de buzones de usuarios que usted desee desde el sistema de correo actual a las correspondientes cuentas de correo de Google Apps for Business. En estos momentos, el sistema es compatible con migraciones procedentes de Microsoft&reg; Exchange Server 2003, Cyrus IMAP Server, Courier-IMAP y Dovecot a trav&eacute;s del protocolo IMAP. Migraci&oacute;n r&aacute;pida y segura.</div>
+					<h3>SEGURIDAD GARANTIZADA</h3>
+					<div>Los productos de Google se dise&ntilde;an teniendo en cuenta la seguridad desde el primer momento. Su equipo de seguridad est&aacute; compuesto por algunos de los expertos mundiales l&iacute;deres en seguridad de la informaci&oacute;n, de aplicaciones y de redes Usted controla su informaci&oacute;n : No comparte sus datos, cuando ingresa sus datos en Google Apps, sigue siendo el propietario de estos.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="logo_google_cont">
+		<div class="logo_descargar"><a href="#"><img src="images/boton-descargar-folleto.gif" width="134" height="148" /></a></div>
+		<div class="logo_google"><img src="images/logo-google-app.png" /></div>
+	</div>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="ventajas.html">Ventajas</a></li>
+				<li><a href="nuestra_oferta.html">Nuestra Oferta</a></li>
+				<li><a href="http://www.snoopconsulting.com/snoop_es/Contacto/Snoop-Consulting.html" target="_blank">Contactos</a></li>
+			</ul>
+		</nav>
+	</footer>
+	</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5078674-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

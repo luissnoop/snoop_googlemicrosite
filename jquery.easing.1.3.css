@@ -1,0 +1,96 @@
+/* Menu style */
+.ei_menu{
+	width:100%;
+	overflow:hidden;
+}
+.ei_menu ul{
+	height:676px;
+	position:relative;
+	display:block;
+	width:1491px;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+.ei_menu ul li{
+	float:left;
+	width:213px;
+	height:676px;
+	position:relative;
+	overflow:hidden;
+	box-shadow:-3px -3px 10px #ccc;
+}
+.ei_image{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:213px;
+	height:676px;
+	background:transparent url(images/solapas-nuestra-oferta.jpg) no-repeat top left;
+}
+.pos1 span{
+	background-position:0px 0px;
+}
+.pos2 span{
+	background-position:-213px 0px;
+}
+.pos3 span{
+	background-position:-426px 0px;
+}
+.pos4 span{
+	background-position:-639px 0px;
+}
+.pos5 span{
+	background-position:-852px 0px;
+}
+.pos6 span{
+	background-position:-1065px 0px;
+}
+.ei_descr{
+	background:#fff;
+	position:absolute;
+	width:828px;
+	height:676px;
+	padding:0px;
+	left:213px;
+	top:0px;
+}
+.ei_descr .logo_secc{
+	padding:20px 0px;
+}
+.ei_descr .boton_cerrar{
+	position:relative;
+	width:828px;
+}
+.ei_descr .boton_cerrar .cerrar_acordeon{
+	position:absolute;
+	right:30px;
+	top:20px;
+	background:transparent url(images/boton-cerrar-acordeon.gif) left top no-repeat;
+	width:56px;
+	height:66px;
+}
+.ei_descr  h3.subtitulo{
+	color:#000;
+	font:italic 26px/36px 'RotisSemiSansStd';
+	margin-bottom:14px;
+}
+.ei_descr .ui-accordion-header{
+	background:#fff;
+	border-bottom:1px dotted #ccc;
+	color:#000;
+	font-style:italic;
+	font-size:26px;
+	line-height:30px;
+}
+.ei_descr .ui-accordion .ui-accordion-header-active{
+	background-color:#fdbe22;
+}
+.ei_descr .ui-accordion .ui-accordion-header-active, .ei_descr .ui-accordion .ui-accordion-content{
+	box-shadow:0px 0px 0px #ccc;
+}
+.ei_descr .ui-accordion .ui-accordion-content{
+	background:#fff;
+	font-style:normal;
+	color:#333;
+}
